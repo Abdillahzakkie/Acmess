@@ -46,22 +46,32 @@ JWT_SECRET = putYourSecret
 PAYPAL_CLIENT_ID = your paypal client id
 ```
 
-### Install Dependencies (frontend & backend)
+
+
+### Steps to Run Project
 
 ```
-npm install
-cd frontend
-npm install
-```
+#backend
 
-### Run
+- Navigate to the project's root directory in your code editor
+- Run npm install to download dependencies
 
-```
-# Run frontend (:3000) & backend (:3005)
+# Run frontend (:3000) & backend (:3005) Concurrently with:
 npm run dev
-# Run backend only
+
+# Run backend only with:
 npm run server
+
+
+#frontend
+
+- Navigate to the frontend folder present in the root directory in your code editor
+- Run npm install to download dependencies
+
+# Run frontend (:3000) only with:
+npm run start
 ```
+
 
 ## Build & Deploy
 
