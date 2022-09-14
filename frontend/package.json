@@ -7,12 +7,10 @@
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^11.2.7",
         "@testing-library/user-event": "^12.8.3",
-
         "@truffle/hdwallet-provider": "^2.0.14",
         "axios": "^0.22.0",
         "dotenv": "^16.0.2",
         "ethers": "^5.7.0",
-
         "react": "^17.0.2",
         "react-bootstrap": "^1.6.4",
         "react-dom": "^17.0.2",
@@ -25,18 +23,14 @@
         "redux": "^4.1.1",
         "redux-devtools-extension": "^2.13.9",
         "redux-thunk": "^2.3.0",
-
         "truffle": "^5.5.29",
         "web-vitals": "^1.1.2",
         "web3": "^1.7.5"
-
     },
     "scripts": {
-        "start": "react-scripts --openssl-legacy-provider start",
+        "start": "react-scripts start",
         "build": "react-scripts build",
-
         "dev": "react-scripts start",
-
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
