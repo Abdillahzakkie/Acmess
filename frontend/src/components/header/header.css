@@ -1,0 +1,70 @@
+.page-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.page-links a > span {
+    color: black;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    position: relative;
+}
+
+.page-links span::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    width: 0px;
+    height: 2px;
+    background: #606EFF;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.page-links span:hover::after {
+    color: #606EFF;
+    width: 50px;
+  }
+
+  .page-links span:hover{
+    color: #606EFF;
+  }
+
+  @media screen and (max-width: 990px) {
+    .page-links span:hover {
+        padding-left: 8px;
+        color: #606EFF;
+      }
+    
+      .page-links span::after {
+        display: none;
+      }
+  }
+
+@media screen and (max-width: 550px) {
+    .page-links {
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .page-links a:nth-child(4) {
+        margin-bottom: 15px;
+    }
+
+}

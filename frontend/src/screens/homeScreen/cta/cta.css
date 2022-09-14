@@ -1,0 +1,68 @@
+.cta-section .cta-wrapper {
+    padding: 65px;
+    background-image: url("../../../assets/images/cta/cta-bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cta-section .cta-wrapper {
+      padding: 60px 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .cta-section .cta-wrapper .cta-title {
+      margin-bottom: 50px;
+    }
+  }
+  
+  .cta-section .cta-wrapper .cta-title h2 {
+    font-size: 45px;
+    color: #fff;
+  }
+  
+  .cta-section .cta-wrapper .subscribe-form-wrapper form {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 767px) {
+    .cta-section .cta-wrapper .subscribe-form-wrapper form {
+      display: block;
+    }
+  }
+  
+  .cta-section .cta-wrapper .subscribe-form-wrapper form input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-right: 20px;
+    padding: 10px 0;
+  }
+  
+  .cta-section .cta-wrapper .subscribe-form-wrapper form input::placeholder {
+    color: inherit;
+  }
+  
+  @media (max-width: 767px) {
+    .cta-section .cta-wrapper .subscribe-form-wrapper form input {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .cta-section .cta-wrapper .subscribe-form-wrapper form button {
+    background: #fff;
+    color: #606EFF;
+    text-transform: uppercase;
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px;
+  }
