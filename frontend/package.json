@@ -7,7 +7,6 @@
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^11.2.7",
         "@testing-library/user-event": "^12.8.3",
-        "@truffle/hdwallet-provider": "^2.0.14",
         "axios": "^0.22.0",
         "dotenv": "^16.0.2",
         "ethers": "^5.7.0",
@@ -23,7 +22,6 @@
         "redux": "^4.1.1",
         "redux-devtools-extension": "^2.13.9",
         "redux-thunk": "^2.3.0",
-        "truffle": "^5.5.29",
         "web-vitals": "^1.1.2",
         "web3": "^1.7.5"
     },
