@@ -16,7 +16,6 @@ contract Acme {
     owner = payable(msg.sender);
     widgetbalance[owner] = 100_000;
   }
-    
   
   function transfer(address to, uint256 value) external {
     require(value <= widgetbalance[msg.sender], "amount exceeds widget balance");
@@ -37,7 +36,6 @@ contract Acme {
   function pay(uint256 amount) external payable {
       require(msg.value >= amount);
       totalValueLocked += msg.value;
-   
   }
 
   function withdraw() external onlyOwner {
