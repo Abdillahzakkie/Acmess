@@ -1,3 +1,4 @@
+# DEPLOYMENT SCRIPT FOR PUSHING CONTAINER TO HEROKU
 heroku container:login
 docker build -t registry.heroku.com/acme-widget/web .
 docker push registry.heroku.com/acme-widget/web
